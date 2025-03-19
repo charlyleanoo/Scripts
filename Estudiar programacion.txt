@@ -1,0 +1,68 @@
+ARRIBA DE MAIN
+
+struct date
+{
+    int day;
+    int month;
+    int year;
+};
+
+
+ABAJO DE MAIN
+
+    struct date yepiz;
+    {
+        yepiz.day = 10;
+        yepiz.month = 11;
+        yepiz.year = 2004;
+    };
+
+
+
+Un arreglo es un conjunto de elementos del mismo tipo de manera consecutiva que ocupa un espacio determinado en la memoria
+
+¿Cuando se pasa por valor y cuando por referencia?
+Cuando se pasa por valor se copia en algun lugar y pasa en las funciones
+cuando reciben argumentos
+
+
+Por referencia es en los arreglos porque se altera en todo el codigo
+
+Arreglo bidimensional
+
+int cubo [2][4][2];
+cube [arreglo uno o dos][indice columna][indice fila];
+cube [0][2][1];
+
+
+
+
+
+__________________________________________________________________________NO VIENE EN EL EXAMEN
+
+La memoria está representada en hexadecimal y funcionan como los indices
+de los arreglos
+
+& = Direccion de (Y es un operador unario, es decir, requiere un argumento)
+
+* = Obtiene el valor de la caja dada una direccion
+
+Ejemplo:
+
+int foo = 2;
+*(&foo);
+
+Esto da como resultado 2 porque el * pide el valor de lo que se identifique
+en &foo.
+
+
+
+
+
+
+
+
+
+
+
+

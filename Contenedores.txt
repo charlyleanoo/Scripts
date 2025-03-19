@@ -1,0 +1,45 @@
+Contenedores
+
+Un contenedor es un tipo de dato abstracto 
+
+Los contenedores mas populares son:
+	-listas
+	-pilas
+	-colas
+	-colas de prioridad
+	-conjuntos
+	-mapas
+Se distinguen entre si por las politicas de acceso e insercion de elementos
+
+Listas:
+	como los arreglos cada elemento es accedidio traves de indices.
+	a diferencia de los arreglos el tamaño inicial es 0.
+	pero puede crecer y decrecer.
+
+	Metodos Tipicos:
+		void add (type t)
+		Type get (int index)
+		Type remove (int index)
+		Type insert (index, type value)
+		int indexOf(type t)
+
+Pilas:
+	Es una secuencia vertcial, solo permite añadir en la parte superior.
+Colas:
+	Una secuencia hrizontal
+	añadir un elemnto en la parte final de la secuncia derecha
+	ectraer el inicila de la izquierda
+	no puedes leer ni eliminar en la mitad no hay indices
+
+Colas de prioridad:
+	Es una coleccion de elementos comprobables 
+	consultar y extraer dependiendo de la prioridad
+
+Conjuntos:
+	Coleccion elementos que no admite repetidos de acuerdo a un criterio de comparacion
+	
+Mapas:
+	Coleccion de elementos que son  accedidos mediante una clave irrepetible de acuerdo con 	un 	criterio de comparacion.
+	eliminar valor dada su clave.
+	obtener valor dada su clave.
+	
