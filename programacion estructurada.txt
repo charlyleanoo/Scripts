@@ -1,0 +1,114 @@
+REPASO PROGRAMACION ESTRUCTURADA
+
+primero se compila y luego pasa por el enlazador.
+
+el compilador hace archivos de tipo objeto.
+
+durante la compilacion ya sabe que tamaño y arida de variables y funciones.
+aridad numero de argumentos que toma una funcion.
+
+
+
+#ifndef esto es para que no se repita las librerias en tus programas 
+#endif para terminar tu programa que no se declare dos veces.
+
+el linker combina los archivos
+
+
+%i int
+
+%f foat
+
+%c char
+
+%s string
+
+
+¿Qué es un compilador?
+
+Es un Software que traduce un programa escrito en un lenguaje de programación de alto nivel (C / C ++, COBOL, etc.) 
+
+en lenguaje de máquina. Un compilador generalmente genera lenguaje ensamblador primero y luego traduce el lenguaje
+
+ensamblador al lenguaje máquina.
+
+Una utilidad conocida como «enlazador» combina todos los módulos de lenguaje de máquina necesarios en un programa 
+
+ejecutable que se puede ejecutar en la computadora.
+
+
+(Linker). En programación, un enlazador es un módulo o programa que junta los ficheros de código objetos 
+
+(generados en la primer parte de la compilación), la información de todos los recursos necesarios (biblioteca),
+
+elimina los recursos que no se necesitan y enlaza el código objeto con sus bibliotecas. 
+
+Finalmente produce el fichero ejecutable o una biblioteca.
+
+
+ARREGLOS
+
+Es un conjunto de elementos del mismo tipo de manera ordenada que ocupa un espacio determinado en la memoria.
+
+int number[4] es el tipo , nombre y capacidad de [4] elementos 0,0,0,0
+
+para acceder es number[2] 0,0,#,0 es el del gato porque los arreglos empiezan en 0,1,2,3
+
+los arreglos no se pasan por valor si no por referencia.
+
+"(cuando haces funciones si se pasa por valor porque se crea una copia de esa variable)".
+
+Si alteramos el contenido de un arreglo en la ejecución de
+alguna función estos cambios se reflejarán en todo el
+programa.
+
+
+
+
+Enum 
+
+Es un tipo de dato que define una serie de constantes de tipo entero nombradas.
+
+
+OPERADOR "&"
+
+(direccion de)
+
+"dame la direccion de....."
+
+int foo=2;
+
+unsigned long int bar= &foo;
+
+obten la direccion de foo, y guardala en la variable bar.
+
+
+OPERADOR "*"
+
+dame el valor de la dirección.
+
+int foo=2;
+
+*(&foo)
+
+"dame el valor en lo que resulte de obtener la direccion de foo"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
